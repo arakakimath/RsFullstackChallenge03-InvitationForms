@@ -1,0 +1,10 @@
+.text-logo {
+  font: var(--text-logo);
+  color: var(--pink);
+}
+
+.text-bmdl {
+  font: var(--text-bmdr);
+  font-weight: 300;
+  color: var(--text-heading);
+}
