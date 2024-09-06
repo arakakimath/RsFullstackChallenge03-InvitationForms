@@ -60,5 +60,6 @@ main {
     max-width: 51.25rem;
     height: 100vh;
     background-color: var(--shape-body);
+    padding: calc(80rem/16) calc(130rem/16);
   }
 }

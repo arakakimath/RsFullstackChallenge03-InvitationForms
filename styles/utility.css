@@ -8,3 +8,13 @@
   font-weight: 300;
   color: var(--text-heading);
 }
+
+.text-hmd {
+  font: var(--text-hmd);
+  color: var(--text-heading);
+}
+
+.text-hsm {
+  font: var(--text-hsm);
+  color: var(--text-heading);
+}

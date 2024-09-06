@@ -1,0 +1,39 @@
+form > h1 {
+  margin-bottom: calc(40rem/16);
+}
+
+.fieldset-header {
+  display: flex;
+  gap: calc(12rem/16);
+  align-items: center;
+  margin-bottom: calc(24rem/16);
+  img {
+    height: calc(24rem/16);
+    width: calc(24rem/16);
+  }
+}
+
+fieldset {
+  all: unset;
+}
+
+label {
+  display: block;
+  margin-bottom: calc(12rem/16);
+  font: var(--text-bsmr);
+  color: var(--text-body);
+}
+
+input[id="eventname"] {
+  width: calc(560rem/16);
+}
+
+input {
+  appearance: none;
+  padding: calc(13rem/16) 1rem;
+  font: var(--text-bmdr);
+  color: var(--text-body);
+  border-radius: .5rem;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--input-base);
+}
