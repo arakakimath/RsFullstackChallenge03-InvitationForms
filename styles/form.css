@@ -25,10 +25,15 @@ label {
 }
 
 input[id="eventname"] {
-  width: calc(560rem/16);
+  width: 100%;
 }
 
 input {
+  height: 3rem;
+}
+
+input, textarea {
+  width: 100%;
   appearance: none;
   padding: calc(13rem/16) 1rem;
   font: var(--text-bmdr);
@@ -37,3 +42,25 @@ input {
   border: 1px solid var(--input-stroke);
   background-color: var(--input-base);
 }
+
+.date-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.input-wrapper {
+  input{
+    width: 100%;
+  }
+}
+
+input[type="datetime-local"] {
+  width: 100%;
+}
+
+.textarea-wrapper {
+  margin-top: 1rem;
+}
+

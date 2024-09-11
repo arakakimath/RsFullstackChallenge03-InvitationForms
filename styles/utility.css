@@ -18,3 +18,8 @@
   font: var(--text-hsm);
   color: var(--text-heading);
 }
+
+.text-bsms {
+  font: var(--text-bsms);
+  color: var(--text-heading);
+}
