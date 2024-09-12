@@ -70,3 +70,54 @@ fieldset + fieldset {
   margin-top: 3rem;
 }
 
+.checkbox-image {
+  position: relative;
+  background-image: url(../assets/icons/Frame\ 48095946\ \(2\).svg);
+  object-fit: fill;
+  width: calc(20rem/16);
+  height: calc(20rem/16);
+  input {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+  &:has(:checked) {
+    background-image: url(../assets/icons/Frame\ 48095946\ \(3\).svg);
+  }
+}
+
+.checkbox-box {
+  display: grid;
+  grid-template-columns: calc(20rem/16) 1fr;
+  gap: calc(12rem/16);
+  padding-block: 0.25rem;
+}
+
+.checkbox-final {
+  padding-top: 2.5rem;
+  margin-top: 3rem;
+  border-top: 1px solid var(--input-stroke);
+  padding-bottom: 3rem;
+  display: grid;
+  gap: calc(12rem/16);
+}
+
+.actions-wrapper {
+  justify-self: end;
+  display: flex;
+  padding: calc(13rem/16) calc(20rem/16);
+  gap: calc(12rem/16);
+  border-radius: 0.5rem;
+  width: calc(177rem/16);
+  background-color: var(--brand-dark);
+  position: relative;
+  button {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+}
+
+form {
+  display: grid;
+}

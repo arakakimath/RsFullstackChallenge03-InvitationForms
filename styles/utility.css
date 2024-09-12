@@ -33,3 +33,8 @@
   font: var(--text-bmdr);
   color: var(--input-placeholder);
 }
+
+.text-bmds {
+  font: var(--text-bmds);
+  color: var(--text-heading);
+}

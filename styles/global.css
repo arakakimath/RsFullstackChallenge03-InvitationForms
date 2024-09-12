@@ -58,3 +58,7 @@ body {
   font: var(--text-bmdr);
   color: var(--input-placeholder);
 }
+
+a {
+  color: var(--brand-light);
+}
