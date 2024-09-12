@@ -50,19 +50,17 @@ aside {
 }
 
 main {
-  overflow: auto;
   border-radius: 1.25rem;
   border-top-left-radius: 0;
   margin-right: auto;
   padding: 1.25rem;
   background-color: var(--shape-background);
   .main-container {
+    overflow: auto;
     border-radius: .75rem;
     width: 51.25rem;
     height: 100vh;
     background-color: var(--shape-body);
-    /* justify-self: center; */
-    border: solid;
     form {
       width: 35rem;
       margin: calc(80rem/16) auto;
