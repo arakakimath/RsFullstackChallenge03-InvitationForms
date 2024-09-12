@@ -15,6 +15,7 @@ form > h1 {
 
 fieldset {
   all: unset;
+  width: 100%;
 }
 
 label {
@@ -51,6 +52,7 @@ input, textarea {
 }
 
 .input-wrapper {
+  width: 100%;
   input{
     width: 100%;
   }
@@ -62,5 +64,9 @@ input[type="datetime-local"] {
 
 .textarea-wrapper {
   margin-top: 1rem;
+}
+
+fieldset + fieldset {
+  margin-top: 3rem;
 }
 

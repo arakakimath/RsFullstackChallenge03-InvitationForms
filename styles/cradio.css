@@ -1,0 +1,70 @@
+.cradio-wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(11, 1fr);
+  justify-items: center;
+}
+
+label + .cradio-wrapper {
+  margin-top: 1rem;
+}
+
+.cradio-circle {
+  width: calc(28rem/16);
+  height: calc(28rem/16);
+  border-radius: 3rem;
+  border: none;
+}
+
+.cradio-inner {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 3rem;
+  border: none;
+  padding: calc(6rem/16);
+  background-color: var(--shape-button);
+  position: relative;
+  input {
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+
+  &:hover, &:has(:checked), &:focus {
+    outline: 2px solid var(--brand-light);
+  }
+}
+
+.cradio-inner:nth-child(1) div {
+  background-color: var(--brand-light);
+}
+.cradio-inner:nth-child(2) div {
+  background-color: var(--navy);
+}
+.cradio-inner:nth-child(3) div {
+  background-color: var(--purple);
+}
+.cradio-inner:nth-child(4) div {
+  background-color: var(--fuschia);
+}
+.cradio-inner:nth-child(5) div {
+  background-color: var(--pink);
+}
+.cradio-inner:nth-child(6) div {
+  background-color: var(--danger);
+}
+.cradio-inner:nth-child(7) div {
+  background-color: var(--orange);
+}
+.cradio-inner:nth-child(8) div {
+  background-color: var(--yellow);
+}
+.cradio-inner:nth-child(9) div {
+  background-color: var(--lime);
+}
+.cradio-inner:nth-child(10) div {
+  background-color: var(--green);
+}
+.cradio-inner:nth-child(11) div {
+  background-color: var(--cyan);
+}

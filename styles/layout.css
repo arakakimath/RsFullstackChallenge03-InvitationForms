@@ -50,6 +50,7 @@ aside {
 }
 
 main {
+  overflow: auto;
   border-radius: 1.25rem;
   border-top-left-radius: 0;
   margin-right: auto;
@@ -57,9 +58,14 @@ main {
   background-color: var(--shape-background);
   .main-container {
     border-radius: .75rem;
-    max-width: 51.25rem;
+    width: 51.25rem;
     height: 100vh;
     background-color: var(--shape-body);
-    padding: calc(80rem/16) calc(130rem/16);
+    /* justify-self: center; */
+    border: solid;
+    form {
+      width: 35rem;
+      margin: calc(80rem/16) auto;
+    }
   }
 }
