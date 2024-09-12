@@ -23,3 +23,8 @@
   font: var(--text-bsms);
   color: var(--text-heading);
 }
+
+.text-bsmr {
+  font: var(--text-bsmr);
+  color: var(--text-heading);
+}

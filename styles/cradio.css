@@ -68,3 +68,34 @@ label + .cradio-wrapper {
 .cradio-inner:nth-child(11) div {
   background-color: var(--cyan);
 }
+
+.customizing {
+  .input-wrapper > label {
+    margin-block: calc(28rem/16) 1rem;
+  }
+}
+
+.cradio-wrapper-4cols {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 0.5rem;
+  .cradio-inner-4cols {
+    padding-inline 0.25rem;
+    padding-block: 0.25rem 0.5rem;
+    position: relative;
+    text-align: center;
+    background-color: var(--shape-button);
+    border-radius: 0.5rem;
+    img{
+      border-radius: 0.25rem;
+    }
+    input {
+      all: unset;
+      position: absolute;
+      inset: 0;
+    }
+    &:hover, &:focus, &:has(:checked) {
+      outline: 2px solid var(--brand-light);
+    }
+  }
+}
