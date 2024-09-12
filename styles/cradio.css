@@ -80,7 +80,8 @@ label + .cradio-wrapper {
   grid-template-columns: repeat(4,1fr);
   gap: 0.5rem;
   .cradio-inner-4cols {
-    padding-inline 0.25rem;
+
+    padding-inline: .25rem .25rem;
     padding-block: 0.25rem 0.5rem;
     position: relative;
     text-align: center;
