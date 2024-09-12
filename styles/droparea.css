@@ -1,0 +1,37 @@
+.column-wrapper {
+  display: grid;
+  grid-template-columns: 39.17% 1fr;
+}
+
+.dropzone {
+  display: flex;
+  vertical-align: center;
+  gap: 0.5rem;
+  padding: calc(10.5rem/16) calc(12rem/16);
+  width: calc(119rem/16);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: solid 1px;
+  position: relative;
+  input {
+    all: unset;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    opacity: 0;
+  }
+}
+
+.droparea-wrapper {
+  label {
+    margin-top: calc(28rem/16);
+    margin-bottom: calc(12rem/16);
+  }
+}
+
+.droparea-inner {
+  display: grid;
+  grid-template-columns: calc(119rem/16) 1fr;
+  align-items: center;
+  gap: calc(12rem/16);
+}
